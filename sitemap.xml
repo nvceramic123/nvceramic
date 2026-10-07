@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOUR-DOMAIN.example/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/products.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/about.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/projects.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/dealer.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/catalogue.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/contact.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/blog.html</loc></url>
+  <url><loc>https://nvceramic123.github.io/nvceramic/</loc></url>
+  <url><loc>https://nvceramic123.github.io/nvceramic/products.html</loc></url>
+  <url><loc>https://nvceramic123.github.io/nvceramic/about.html</loc></url>
+  <url><loc>https://nvceramic123.github.io/nvceramic/projects.html</loc></url>
+  <url><loc>https://nvceramic123.github.io/nvceramic/dealer.html</loc></url>
+  <url><loc>https://nvceramic123.github.io/nvceramic/catalogue.html</loc></url>
+  <url><loc>https://nvceramic123.github.io/nvceramic/contact.html</loc></url>
+  <url><loc>https://nvceramic123.github.io/nvceramic/blog.html</loc></url>
 </urlset>
