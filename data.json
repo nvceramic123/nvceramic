@@ -9,12 +9,12 @@
     "whatsapp": "917567796973",
     "phone": "917567796973",
     "phoneDisplay": "+91 75677 96973",
-    "email": "",
+    "email": null,
     "websiteTitle": "N V CERAMIC | Tiles & Sanitaryware Manufacturer & Supplier in Morbi",
     "heroTitle": "Tiles & Sanitaryware for Better Spaces.",
-    "heroDescription": "Explore tile and sanitaryware solutions for homes, dealers, builders, architects, contractors and project requirements.",
+    "heroDescription": "Premium tile and sanitaryware solutions for homes, dealers, builders, architects and projects.",
     "contactHeading": "Let’s discuss your requirement",
-    "contactDescription": "Send product name, size, application, quantity or project details.",
+    "contactDescription": "Share your product, size, quantity or project requirement.",
     "copyrightYear": "2026",
     "showPrices": false
   },
@@ -24,105 +24,105 @@
       "name": "Ceramic Tiles",
       "group": "Tiles",
       "slug": "ceramic-tiles",
-      "desc": "Ceramic tiles"
+      "desc": "Everyday wall and floor ceramic tile options."
     },
     {
       "id": "CAT-002",
       "name": "Vitrified Tiles",
       "group": "Tiles",
       "slug": "vitrified-tiles",
-      "desc": "Vitrified tiles"
+      "desc": "Durable vitrified tile options for residential and commercial use."
     },
     {
       "id": "CAT-003",
       "name": "GVT Tiles",
       "group": "Tiles",
       "slug": "gvt-tiles",
-      "desc": "Glazed vitrified tiles"
+      "desc": "Digital glazed vitrified tile collections."
     },
     {
       "id": "CAT-004",
       "name": "PGVT Tiles",
       "group": "Tiles",
       "slug": "pgvt-tiles",
-      "desc": "Polished glazed vitrified tiles"
+      "desc": "Polished glazed vitrified tile collections."
     },
     {
       "id": "CAT-005",
       "name": "Full Body Tiles",
       "group": "Tiles",
       "slug": "full-body-tiles",
-      "desc": "Full body tiles"
+      "desc": "Full body and heavy-use tile options."
     },
     {
       "id": "CAT-006",
       "name": "Porcelain Tiles",
       "group": "Tiles",
       "slug": "porcelain-tiles",
-      "desc": "Porcelain tiles"
+      "desc": "Porcelain tile options for premium spaces."
     },
     {
       "id": "CAT-007",
       "name": "Parking Tiles",
       "group": "Tiles",
       "slug": "parking-tiles",
-      "desc": "Parking and outdoor tiles"
+      "desc": "Outdoor and parking tile options."
     },
     {
       "id": "CAT-008",
       "name": "Wall Tiles",
       "group": "Tiles",
       "slug": "wall-tiles",
-      "desc": "Wall tiles"
+      "desc": "Wall tile collections."
     },
     {
       "id": "CAT-009",
       "name": "Floor Tiles",
       "group": "Tiles",
       "slug": "floor-tiles",
-      "desc": "Floor tiles"
+      "desc": "Floor tile collections."
     },
     {
       "id": "CAT-010",
-      "name": "Sanitaryware",
+      "name": "Table Top Basin",
       "group": "Sanitaryware",
-      "slug": "sanitaryware",
-      "desc": "Sanitaryware"
+      "slug": "table-top-basin",
+      "desc": "Designer table top wash basins."
     },
     {
       "id": "CAT-011",
-      "name": "Table Top Wash Basins",
+      "name": "Wash Basin",
       "group": "Sanitaryware",
-      "slug": "table-top-wash-basins",
-      "desc": "Table top basins"
+      "slug": "wash-basin",
+      "desc": "Wash basin collections."
     },
     {
       "id": "CAT-012",
-      "name": "One Piece Closets",
+      "name": "One Piece WC",
       "group": "Sanitaryware",
-      "slug": "one-piece-closets",
-      "desc": "One piece closets"
+      "slug": "one-piece-wc",
+      "desc": "One piece sanitaryware."
     },
     {
       "id": "CAT-013",
-      "name": "Wall Hung Closets",
+      "name": "Wall Hung WC",
       "group": "Sanitaryware",
-      "slug": "wall-hung-closets",
-      "desc": "Wall hung closets"
+      "slug": "wall-hung-wc",
+      "desc": "Wall hung sanitaryware."
     },
     {
       "id": "CAT-014",
-      "name": "Urinals",
+      "name": "Urinal",
       "group": "Sanitaryware",
-      "slug": "urinals",
-      "desc": "Urinals"
+      "slug": "urinal",
+      "desc": "Urinal collections."
     },
     {
       "id": "CAT-015",
-      "name": "Orissa Pans",
+      "name": "Accessories",
       "group": "Sanitaryware",
-      "slug": "orissa-pans",
-      "desc": "Orissa pans"
+      "slug": "sanitary-accessories",
+      "desc": "Sanitaryware accessories."
     }
   ],
   "sizes": [
@@ -131,36 +131,63 @@
       "name": "600x1200 mm",
       "inch": "24x48 inch",
       "cm": "60x120 cm",
-      "pcsBox": 2,
-      "sqftBox": 15.5,
-      "sqmtrBox": 1.44
+      "pcsBox": "2",
+      "sqftBox": "15.5",
+      "sqmtrBox": "1.44"
     },
     {
       "id": "SZ-002",
       "name": "600x600 mm",
       "inch": "24x24 inch",
       "cm": "60x60 cm",
-      "pcsBox": 4,
-      "sqftBox": 15.5,
-      "sqmtrBox": 1.44
+      "pcsBox": "4",
+      "sqftBox": "15.5",
+      "sqmtrBox": "1.44"
     },
     {
       "id": "SZ-003",
       "name": "800x1600 mm",
-      "inch": "31.50x63 inch",
+      "inch": "32x64 inch",
       "cm": "80x160 cm",
-      "pcsBox": 1,
-      "sqftBox": 13.78,
-      "sqmtrBox": 1.28
+      "pcsBox": "1",
+      "sqftBox": "13.78",
+      "sqmtrBox": "1.28"
     },
     {
       "id": "SZ-004",
+      "name": "800x2400 mm",
+      "inch": "32x96 inch",
+      "cm": "80x240 cm",
+      "pcsBox": "1",
+      "sqftBox": "20.67",
+      "sqmtrBox": "1.92"
+    },
+    {
+      "id": "SZ-005",
+      "name": "24x24 inch",
+      "inch": "24x24 inch",
+      "cm": "60x60 cm",
+      "pcsBox": null,
+      "sqftBox": null,
+      "sqmtrBox": null
+    },
+    {
+      "id": "SZ-006",
       "name": "455x340x135 mm",
-      "inch": "17.91x13.39x5.31 inch",
-      "cm": "45.5x34x13.5 cm",
-      "pcsBox": "",
-      "sqftBox": "",
-      "sqmtrBox": ""
+      "inch": null,
+      "cm": null,
+      "pcsBox": null,
+      "sqftBox": null,
+      "sqmtrBox": null
+    },
+    {
+      "id": "SZ-007",
+      "name": "600x400 mm",
+      "inch": null,
+      "cm": null,
+      "pcsBox": null,
+      "sqftBox": null,
+      "sqmtrBox": null
     }
   ],
   "finishes": [
@@ -182,19 +209,19 @@
     },
     {
       "id": "FIN-005",
-      "name": "Anti-Skid"
+      "name": "Satin"
     },
     {
       "id": "FIN-006",
-      "name": "Marble Look"
+      "name": "Anti Skid"
     },
     {
       "id": "FIN-007",
-      "name": "Stone Look"
+      "name": "Structured"
     },
     {
       "id": "FIN-008",
-      "name": "Wood Look"
+      "name": "Natural"
     }
   ],
   "applications": [
@@ -236,7 +263,7 @@
     },
     {
       "id": "APP-010",
-      "name": "Office / Commercial"
+      "name": "Commercial"
     },
     {
       "id": "APP-011",
@@ -252,378 +279,724 @@
     },
     {
       "id": "APP-014",
-      "name": "Outdoor"
+      "name": "Resort"
     },
     {
       "id": "APP-015",
-      "name": "Temple / Public Project"
+      "name": "Outdoor"
+    },
+    {
+      "id": "APP-016",
+      "name": "Office"
+    }
+  ],
+  "features": [
+    {
+      "id": "FEA-001",
+      "name": "Designer"
+    },
+    {
+      "id": "FEA-002",
+      "name": "Easy Clean"
+    },
+    {
+      "id": "FEA-003",
+      "name": "Germ Free"
+    },
+    {
+      "id": "FEA-004",
+      "name": "Anti Skid"
+    },
+    {
+      "id": "FEA-005",
+      "name": "Stain Resistant"
+    },
+    {
+      "id": "FEA-006",
+      "name": "Scratch Resistant"
+    },
+    {
+      "id": "FEA-007",
+      "name": "Low Maintenance"
+    },
+    {
+      "id": "FEA-008",
+      "name": "Durable"
+    },
+    {
+      "id": "FEA-009",
+      "name": "Hard Water Friendly"
+    },
+    {
+      "id": "FEA-010",
+      "name": "Outdoor Suitable"
+    },
+    {
+      "id": "FEA-011",
+      "name": "Heavy Duty"
+    },
+    {
+      "id": "FEA-012",
+      "name": "Premium Finish"
+    }
+  ],
+  "prices": [
+    {
+      "id": "PRICE-001",
+      "name": "Marble Figure",
+      "price": "₹ 0",
+      "unit": "Piece",
+      "currency": "INR"
+    },
+    {
+      "id": "PRICE-002",
+      "name": "Sample Tile",
+      "price": "₹ 0",
+      "unit": "Sq.Ft.",
+      "currency": "INR"
     }
   ],
   "products": [
     {
       "id": "PRD-001",
-      "name": "Marble Look GVT Tile",
-      "categoryId": "CAT-003",
-      "description": "Premium marble-look GVT tile for residential and project spaces.",
-      "image": "",
-      "priceId": "P001",
-      "priceIds": [
-        "P001"
-      ],
-      "active": true,
-      "featured": true,
-      "new": true,
-      "variants": [
-        {
-          "id": "VAR-001",
-          "productId": "PRD-001",
-          "sizeId": "SZ-001",
-          "finishId": "FIN-001",
-          "priceId": "P001"
-        },
-        {
-          "id": "VAR-002",
-          "productId": "PRD-001",
-          "sizeId": "SZ-002",
-          "finishId": "FIN-001",
-          "priceId": "P001"
-        },
-        {
-          "id": "VAR-003",
-          "productId": "PRD-001",
-          "sizeId": "SZ-001",
-          "finishId": "FIN-006",
-          "priceId": "P001"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "SZ-001",
-          "name": "600x1200 mm",
-          "inch": "24x48 inch",
-          "cm": "60x120 cm",
-          "pcsBox": 2,
-          "sqftBox": 15.5,
-          "sqmtrBox": 1.44
-        },
-        {
-          "id": "SZ-002",
-          "name": "600x600 mm",
-          "inch": "24x24 inch",
-          "cm": "60x60 cm",
-          "pcsBox": 4,
-          "sqftBox": 15.5,
-          "sqmtrBox": 1.44
-        }
-      ],
-      "finishes": [
-        {
-          "id": "FIN-001",
-          "name": "Glossy"
-        },
-        {
-          "id": "FIN-006",
-          "name": "Marble Look"
-        }
-      ],
-      "applications": [
-        {
-          "id": "APP-001",
-          "name": "Living Room"
-        },
-        {
-          "id": "APP-002",
-          "name": "Bedroom"
-        },
-        {
-          "id": "APP-007",
-          "name": "Villa"
-        },
-        {
-          "id": "APP-008",
-          "name": "Hotel"
-        },
-        {
-          "id": "APP-010",
-          "name": "Office / Commercial"
-        },
-        {
-          "id": "APP-014",
-          "name": "Outdoor"
-        }
-      ],
-      "size": "600x1200 mm, 600x600 mm",
-      "finish": "Glossy, Marble Look",
-      "application": "Living Room, Bedroom, Villa, Hotel, Office / Commercial, Outdoor"
-    },
-    {
-      "id": "PRD-002",
-      "name": "Outdoor Parking Tile",
-      "categoryId": "CAT-007",
-      "description": "Durable anti-skid parking tile for outdoor and heavy-use areas.",
-      "image": "",
-      "priceId": "P002",
-      "priceIds": [
-        "P002"
-      ],
-      "active": true,
-      "featured": true,
-      "new": false,
-      "variants": [
-        {
-          "id": "VAR-004",
-          "productId": "PRD-002",
-          "sizeId": "SZ-004",
-          "finishId": "FIN-005",
-          "priceId": "P002"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "SZ-004",
-          "name": "455x340x135 mm",
-          "inch": "17.91x13.39x5.31 inch",
-          "cm": "45.5x34x13.5 cm",
-          "pcsBox": "",
-          "sqftBox": "",
-          "sqmtrBox": ""
-        }
-      ],
-      "finishes": [
-        {
-          "id": "FIN-005",
-          "name": "Anti-Skid"
-        }
-      ],
-      "applications": [
-        {
-          "id": "APP-011",
-          "name": "Parking"
-        },
-        {
-          "id": "APP-012",
-          "name": "Factory"
-        },
-        {
-          "id": "APP-013",
-          "name": "School"
-        },
-        {
-          "id": "APP-014",
-          "name": "Outdoor"
-        }
-      ],
+      "name": "Marble Figure",
+      "categoryId": "CAT-010",
+      "category": "Table Top Basin",
+      "productType": "Table Top Basin",
+      "design": "Marble",
+      "finish": "Glossy",
       "size": "455x340x135 mm",
-      "finish": "Anti-Skid",
-      "application": "Parking, Factory, School, Outdoor"
-    },
-    {
-      "id": "PRD-003",
-      "name": "Table Top Wash Basin – Marble Look",
-      "categoryId": "CAT-011",
-      "description": "Premium table top wash basin with a marble-look finish for modern bathrooms.",
-      "image": "",
-      "priceId": "P003",
-      "priceIds": [
-        "P003"
-      ],
-      "active": true,
-      "featured": true,
-      "new": true,
-      "variants": [
-        {
-          "id": "VAR-005",
-          "productId": "PRD-003",
-          "sizeId": "",
-          "finishId": "FIN-006",
-          "priceId": "P003"
-        }
-      ],
-      "sizes": [],
-      "finishes": [
-        {
-          "id": "FIN-006",
-          "name": "Marble Look"
-        }
-      ],
+      "colour": "Brown",
+      "application": "Bathroom, Hotel, Villa",
       "applications": [
         {
-          "id": "APP-003",
           "name": "Bathroom"
         },
         {
-          "id": "APP-007",
-          "name": "Villa"
+          "name": "Hotel"
         },
         {
-          "id": "APP-008",
+          "name": "Villa"
+        }
+      ],
+      "feature": "Designer, Easy Clean",
+      "features": [
+        {
+          "name": "Designer"
+        },
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Premium marble-look table top basin for bathrooms, villas and hospitality spaces.",
+      "seoTitle": "Marble Figure | N V CERAMIC",
+      "metaDescription": "Premium marble-look table top basin for bathrooms, villas and hospitality spaces.",
+      "active": true,
+      "featured": true,
+      "new": true
+    },
+    {
+      "id": "PRD-002",
+      "name": "Sample Ceramic Marble",
+      "categoryId": "CAT-001",
+      "category": "Ceramic Tiles",
+      "productType": "Ceramic Tiles",
+      "design": "Marble",
+      "finish": "Glossy",
+      "size": "300x450 mm",
+      "colour": "Beige",
+      "application": "Bathroom, Kitchen",
+      "applications": [
+        {
+          "name": "Bathroom"
+        },
+        {
+          "name": "Kitchen"
+        }
+      ],
+      "feature": "Easy Clean, Designer",
+      "features": [
+        {
+          "name": "Easy Clean"
+        },
+        {
+          "name": "Designer"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Ceramic Tiles — Marble look for walls and selected floors.",
+      "seoTitle": "Sample Ceramic Marble | N V CERAMIC",
+      "metaDescription": "Sample Ceramic Tiles — Marble look for walls and selected floors.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-003",
+      "name": "Sample Vitrified Stone",
+      "categoryId": "CAT-002",
+      "category": "Vitrified Tiles",
+      "productType": "Vitrified Tiles",
+      "design": "Stone",
+      "finish": "Matt",
+      "size": "600x600 mm",
+      "colour": "Grey",
+      "application": "Living Room, Bedroom",
+      "applications": [
+        {
+          "name": "Living Room"
+        },
+        {
+          "name": "Bedroom"
+        }
+      ],
+      "feature": "Stain Resistant, Easy Clean",
+      "features": [
+        {
+          "name": "Stain Resistant"
+        },
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Vitrified Tiles — stone-look flooring for residential spaces.",
+      "seoTitle": "Sample Vitrified Stone | N V CERAMIC",
+      "metaDescription": "Sample Vitrified Tiles — stone-look flooring for residential spaces.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-004",
+      "name": "Sample GVT Calacatta",
+      "categoryId": "CAT-003",
+      "category": "GVT Tiles",
+      "productType": "Digital Glazed Vitrified Tiles",
+      "design": "Marble",
+      "finish": "Glossy",
+      "size": "600x1200 mm",
+      "colour": "White",
+      "application": "Living Room, Hotel",
+      "applications": [
+        {
+          "name": "Living Room"
+        },
+        {
           "name": "Hotel"
         }
       ],
-      "size": "",
-      "finish": "Marble Look",
-      "application": "Bathroom, Villa, Hotel"
+      "feature": "Designer, Easy Clean",
+      "features": [
+        {
+          "name": "Designer"
+        },
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample GVT Tiles — large-format marble look for premium interiors.",
+      "seoTitle": "Sample GVT Calacatta | N V CERAMIC",
+      "metaDescription": "Sample GVT Tiles — large-format marble look for premium interiors.",
+      "active": true,
+      "featured": true,
+      "new": true
+    },
+    {
+      "id": "PRD-005",
+      "name": "Sample PGVT Onyx",
+      "categoryId": "CAT-004",
+      "category": "PGVT Tiles",
+      "productType": "Polished Glazed Vitrified Tiles",
+      "design": "Onyx",
+      "finish": "Polished",
+      "size": "600x1200 mm",
+      "colour": "White",
+      "application": "Living Room, Hotel",
+      "applications": [
+        {
+          "name": "Living Room"
+        },
+        {
+          "name": "Hotel"
+        }
+      ],
+      "feature": "Designer, Easy Clean",
+      "features": [
+        {
+          "name": "Designer"
+        },
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample PGVT Tiles — polished onyx look for feature interiors.",
+      "seoTitle": "Sample PGVT Onyx | N V CERAMIC",
+      "metaDescription": "Sample PGVT Tiles — polished onyx look for feature interiors.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-006",
+      "name": "Sample Full Body Granite",
+      "categoryId": "CAT-005",
+      "category": "Full Body Tiles",
+      "productType": "Full Body Vitrified Tiles",
+      "design": "Granite",
+      "finish": "Matt",
+      "size": "600x600 mm",
+      "colour": "Grey",
+      "application": "Commercial, Factory, Outdoor",
+      "applications": [
+        {
+          "name": "Commercial"
+        },
+        {
+          "name": "Factory"
+        },
+        {
+          "name": "Outdoor"
+        }
+      ],
+      "feature": "Heavy Duty, Stain Resistant",
+      "features": [
+        {
+          "name": "Heavy Duty"
+        },
+        {
+          "name": "Stain Resistant"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Full Body Tiles — durable option for high-use areas.",
+      "seoTitle": "Sample Full Body Granite | N V CERAMIC",
+      "metaDescription": "Sample Full Body Tiles — durable option for high-use areas.",
+      "active": true,
+      "featured": true,
+      "new": false
+    },
+    {
+      "id": "PRD-007",
+      "name": "Sample Porcelain Stone",
+      "categoryId": "CAT-006",
+      "category": "Porcelain Tiles",
+      "productType": "Porcelain Tiles",
+      "design": "Stone",
+      "finish": "Matt",
+      "size": "600x1200 mm",
+      "colour": "Beige",
+      "application": "Villa, Hotel, Commercial",
+      "applications": [
+        {
+          "name": "Villa"
+        },
+        {
+          "name": "Hotel"
+        },
+        {
+          "name": "Commercial"
+        }
+      ],
+      "feature": "Stain Resistant, Easy Clean",
+      "features": [
+        {
+          "name": "Stain Resistant"
+        },
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Porcelain Tiles — premium stone look for residential and commercial spaces.",
+      "seoTitle": "Sample Porcelain Stone | N V CERAMIC",
+      "metaDescription": "Sample Porcelain Tiles — premium stone look for residential and commercial spaces.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-008",
+      "name": "Sample Parking Grip",
+      "categoryId": "CAT-007",
+      "category": "Parking Tiles",
+      "productType": "Anti Skid Parking Tiles",
+      "design": "Stone",
+      "finish": "Matt",
+      "size": "300x300 mm",
+      "colour": "Grey",
+      "application": "Parking, Factory, Outdoor",
+      "applications": [
+        {
+          "name": "Parking"
+        },
+        {
+          "name": "Factory"
+        },
+        {
+          "name": "Outdoor"
+        }
+      ],
+      "feature": "Anti Skid, Heavy Duty",
+      "features": [
+        {
+          "name": "Anti Skid"
+        },
+        {
+          "name": "Heavy Duty"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Parking Tiles — anti-skid option for parking and outdoor areas.",
+      "seoTitle": "Sample Parking Grip | N V CERAMIC",
+      "metaDescription": "Sample Parking Tiles — anti-skid option for parking and outdoor areas.",
+      "active": true,
+      "featured": true,
+      "new": false
+    },
+    {
+      "id": "PRD-009",
+      "name": "Sample Wall Marble",
+      "categoryId": "CAT-008",
+      "category": "Wall Tiles",
+      "productType": "Wall Tiles",
+      "design": "Marble",
+      "finish": "Glossy",
+      "size": "300x600 mm",
+      "colour": "White",
+      "application": "Bathroom, Kitchen",
+      "applications": [
+        {
+          "name": "Bathroom"
+        },
+        {
+          "name": "Kitchen"
+        }
+      ],
+      "feature": "Easy Clean, Designer",
+      "features": [
+        {
+          "name": "Easy Clean"
+        },
+        {
+          "name": "Designer"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Wall Tiles — marble-look wall collection for bathrooms and kitchens.",
+      "seoTitle": "Sample Wall Marble | N V CERAMIC",
+      "metaDescription": "Sample Wall Tiles — marble-look wall collection for bathrooms and kitchens.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-010",
+      "name": "Sample Floor Cement",
+      "categoryId": "CAT-009",
+      "category": "Floor Tiles",
+      "productType": "Floor Tiles",
+      "design": "Cement",
+      "finish": "Matt",
+      "size": "600x600 mm",
+      "colour": "Grey",
+      "application": "Living Room, Bedroom, Commercial",
+      "applications": [
+        {
+          "name": "Living Room"
+        },
+        {
+          "name": "Bedroom"
+        },
+        {
+          "name": "Commercial"
+        }
+      ],
+      "feature": "Stain Resistant, Easy Clean",
+      "features": [
+        {
+          "name": "Stain Resistant"
+        },
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Floor Tiles — cement-look flooring for modern spaces.",
+      "seoTitle": "Sample Floor Cement | N V CERAMIC",
+      "metaDescription": "Sample Floor Tiles — cement-look flooring for modern spaces.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-011",
+      "name": "Sample Counter Basin",
+      "categoryId": "CAT-011",
+      "category": "Wash Basin",
+      "productType": "Wash Basin",
+      "design": "Plain",
+      "finish": "Glossy",
+      "size": "500x400 mm",
+      "colour": "White",
+      "application": "Bathroom, Hotel",
+      "applications": [
+        {
+          "name": "Bathroom"
+        },
+        {
+          "name": "Hotel"
+        }
+      ],
+      "feature": "Easy Clean, Designer",
+      "features": [
+        {
+          "name": "Easy Clean"
+        },
+        {
+          "name": "Designer"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Wash Basin — clean modern form for bathroom applications.",
+      "seoTitle": "Sample Counter Basin | N V CERAMIC",
+      "metaDescription": "Sample Wash Basin — clean modern form for bathroom applications.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-012",
+      "name": "Sample One Piece WC",
+      "categoryId": "CAT-012",
+      "category": "One Piece WC",
+      "productType": "One Piece WC",
+      "design": "Plain",
+      "finish": "Glossy",
+      "size": "700x360x680 mm",
+      "colour": "White",
+      "application": "Bathroom, Hotel",
+      "applications": [
+        {
+          "name": "Bathroom"
+        },
+        {
+          "name": "Hotel"
+        }
+      ],
+      "feature": "Easy Clean",
+      "features": [
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample One Piece WC — modern sanitaryware for bathrooms and hospitality.",
+      "seoTitle": "Sample One Piece WC | N V CERAMIC",
+      "metaDescription": "Sample One Piece WC — modern sanitaryware for bathrooms and hospitality.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-013",
+      "name": "Sample Wall Hung WC",
+      "categoryId": "CAT-013",
+      "category": "Wall Hung WC",
+      "productType": "Wall Hung WC",
+      "design": "Plain",
+      "finish": "Glossy",
+      "size": "520x360x350 mm",
+      "colour": "White",
+      "application": "Bathroom, Hotel",
+      "applications": [
+        {
+          "name": "Bathroom"
+        },
+        {
+          "name": "Hotel"
+        }
+      ],
+      "feature": "Easy Clean, Designer",
+      "features": [
+        {
+          "name": "Easy Clean"
+        },
+        {
+          "name": "Designer"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Wall Hung WC — contemporary sanitaryware for modern bathrooms.",
+      "seoTitle": "Sample Wall Hung WC | N V CERAMIC",
+      "metaDescription": "Sample Wall Hung WC — contemporary sanitaryware for modern bathrooms.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-014",
+      "name": "Sample Designer Urinal",
+      "categoryId": "CAT-014",
+      "category": "Urinal",
+      "productType": "Urinal",
+      "design": "Plain",
+      "finish": "Glossy",
+      "size": "330x300x500 mm",
+      "colour": "White",
+      "application": "Commercial, Hotel",
+      "applications": [
+        {
+          "name": "Commercial"
+        },
+        {
+          "name": "Hotel"
+        }
+      ],
+      "feature": "Easy Clean",
+      "features": [
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Urinal — practical sanitaryware for commercial and hospitality projects.",
+      "seoTitle": "Sample Designer Urinal | N V CERAMIC",
+      "metaDescription": "Sample Urinal — practical sanitaryware for commercial and hospitality projects.",
+      "active": true,
+      "featured": false,
+      "new": false
+    },
+    {
+      "id": "PRD-015",
+      "name": "Sample Bathroom Accessories",
+      "categoryId": "CAT-015",
+      "category": "Accessories",
+      "productType": "Sanitary Accessories",
+      "design": "Plain",
+      "finish": "Polished",
+      "size": "As per model",
+      "colour": "Chrome",
+      "application": "Bathroom, Hotel",
+      "applications": [
+        {
+          "name": "Bathroom"
+        },
+        {
+          "name": "Hotel"
+        }
+      ],
+      "feature": "Easy Clean",
+      "features": [
+        {
+          "name": "Easy Clean"
+        }
+      ],
+      "priceId": "",
+      "price": "",
+      "unit": "",
+      "currency": "INR",
+      "image": "",
+      "imageUrls": [],
+      "description": "Sample Bathroom Accessories — coordinated accessories for modern bathrooms.",
+      "seoTitle": "Sample Bathroom Accessories | N V CERAMIC",
+      "metaDescription": "Sample Bathroom Accessories — coordinated accessories for modern bathrooms.",
+      "active": true,
+      "featured": false,
+      "new": false
     }
   ],
-  "variants": [
-    {
-      "id": "VAR-001",
-      "productId": "PRD-001",
-      "sizeId": "SZ-001",
-      "finishId": "FIN-001",
-      "priceId": "P001"
-    },
-    {
-      "id": "VAR-002",
-      "productId": "PRD-001",
-      "sizeId": "SZ-002",
-      "finishId": "FIN-001",
-      "priceId": "P001"
-    },
-    {
-      "id": "VAR-003",
-      "productId": "PRD-001",
-      "sizeId": "SZ-001",
-      "finishId": "FIN-006",
-      "priceId": "P001"
-    },
-    {
-      "id": "VAR-004",
-      "productId": "PRD-002",
-      "sizeId": "SZ-004",
-      "finishId": "FIN-005",
-      "priceId": "P002"
-    },
-    {
-      "id": "VAR-005",
-      "productId": "PRD-003",
-      "sizeId": "",
-      "finishId": "FIN-006",
-      "priceId": "P003"
-    }
-  ],
-  "productApplications": [
-    {
-      "id": "MAP-001",
-      "productId": "PRD-001",
-      "applicationId": "APP-001"
-    },
-    {
-      "id": "MAP-002",
-      "productId": "PRD-001",
-      "applicationId": "APP-002"
-    },
-    {
-      "id": "MAP-003",
-      "productId": "PRD-001",
-      "applicationId": "APP-007"
-    },
-    {
-      "id": "MAP-004",
-      "productId": "PRD-001",
-      "applicationId": "APP-008"
-    },
-    {
-      "id": "MAP-005",
-      "productId": "PRD-001",
-      "applicationId": "APP-010"
-    },
-    {
-      "id": "MAP-006",
-      "productId": "PRD-001",
-      "applicationId": "APP-014"
-    },
-    {
-      "id": "MAP-007",
-      "productId": "PRD-002",
-      "applicationId": "APP-011"
-    },
-    {
-      "id": "MAP-008",
-      "productId": "PRD-002",
-      "applicationId": "APP-012"
-    },
-    {
-      "id": "MAP-009",
-      "productId": "PRD-002",
-      "applicationId": "APP-013"
-    },
-    {
-      "id": "MAP-010",
-      "productId": "PRD-002",
-      "applicationId": "APP-014"
-    },
-    {
-      "id": "MAP-011",
-      "productId": "PRD-003",
-      "applicationId": "APP-003"
-    },
-    {
-      "id": "MAP-012",
-      "productId": "PRD-003",
-      "applicationId": "APP-007"
-    },
-    {
-      "id": "MAP-013",
-      "productId": "PRD-003",
-      "applicationId": "APP-008"
-    }
-  ],
-  "prices": [
-    {
-      "id": "P001",
-      "name": "Tile Price",
-      "price": 85.0,
-      "unit": "Sq.Ft.",
-      "currency": "INR"
-    },
-    {
-      "id": "P002",
-      "name": "Parking Tile Price",
-      "price": 55.0,
-      "unit": "Sq.Ft.",
-      "currency": "INR"
-    },
-    {
-      "id": "P003",
-      "name": "Table Top Basin Price",
-      "price": 2200.0,
-      "unit": "Piece",
-      "currency": "INR"
-    }
-  ],
+  "variants": [],
+  "productApplications": [],
   "blogs": [
     {
       "id": "BLOG-001",
       "title": "600x1200 GVT Tiles: Where Should You Use Them?",
       "category": "Tile Buying Guide",
       "slug": "600x1200-gvt-tiles-where-to-use",
-      "shortDescription": "A practical guide to choosing 600x1200 GVT tiles for homes, hotels and commercial spaces.",
-      "image": "",
-      "content": "600x1200 mm GVT tiles are a popular large-format choice for modern interiors because they create fewer visible joints and can give a clean, spacious appearance.\n\nWhere do they work well? Living rooms, bedrooms, villas, hotel interiors and many commercial spaces are common applications. The right finish, surface suitability and product specification should always be checked for the intended area.\n\nBefore buying, confirm the exact size, finish, quantity, batch availability and installation requirements. For project work, also check the substrate, adhesive, grout and movement-joint requirements with the installer.\n\nFor help selecting a suitable format or finish, share your application and approximate quantity with N V CERAMIC.",
+      "shortDescription": "A practical guide to choosing 600x1200 GVT tiles for residential and commercial spaces.",
+      "image": null,
+      "content": "Understand where 600x1200 GVT tiles work best and what to check before buying.",
       "relatedProductIds": [
         "PRD-001"
       ],
-      "seoTitle": "600x1200 GVT Tiles: Where to Use Them | N V CERAMIC",
-      "metaDescription": "Learn where 600x1200 GVT tiles work best and what to consider before selecting them for residential and project spaces.",
+      "seoTitle": "600x1200 GVT Tiles Guide | N V CERAMIC",
+      "metaDescription": "Practical guide to 600x1200 GVT tile selection.",
       "author": "N V CERAMIC",
-      "publishedDate": "2026-10-07",
-      "status": "published",
-      "featured": true
-    },
-    {
-      "id": "BLOG-002",
-      "title": "Glossy vs Matt Tiles: Which Finish Is Right for Your Space?",
-      "category": "Tile Buying Guide",
-      "slug": "glossy-vs-matt-tiles",
-      "shortDescription": "Understand the practical differences between glossy and matt tile finishes before buying.",
-      "image": "",
-      "content": "Glossy and matt tile finishes can create very different visual and practical results. Glossy surfaces can reflect more light and are often easy to wipe clean, while matt finishes create a softer look and can reduce visible glare.\n\nFor living rooms and feature areas, the choice is often mainly about appearance and maintenance. For bathrooms, balconies, parking and other areas where slip resistance matters, choose according to the product's technical specification rather than appearance alone.\n\nAlso consider lighting, cleaning expectations, traffic, water exposure and the overall design of the space.\n\nTell N V CERAMIC your room or project application, preferred look and size to get help narrowing down the right options.",
-      "relatedProductIds": [],
-      "seoTitle": "Glossy vs Matt Tiles: Which Finish Is Better?",
-      "metaDescription": "Compare glossy and matt tile finishes for living rooms, bedrooms, bathrooms, kitchens and project applications.",
-      "author": "N V CERAMIC",
-      "publishedDate": "2026-10-07",
+      "publishedDate": "2026-10-01",
       "status": "published",
       "featured": true
     }

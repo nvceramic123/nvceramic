@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tile Calculator | N V CERAMIC</title>
+<meta name="description" content="Calculate tile requirements using room dimensions or total area. Select any tile size available in the N V CERAMIC size master.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+<section class="calc-page-head">
+  <div class="wrap">
+    <h1>Calculate Your Tile Requirements</h1>
+    <p>Choose your calculation method and get an estimate of tiles needed</p>
+  </div>
+</section>
+
+<section class="section calculator-section">
+<div class="wrap">
+  <div class="calc-mode-tabs" role="radiogroup" aria-label="Calculation method">
+    <label class="calc-mode"><input type="radio" name="calcMode" value="dimensions" checked><span>Use Dimensions</span></label>
+    <label class="calc-mode"><input type="radio" name="calcMode" value="area"><span>Use Total Area</span></label>
+  </div>
+
+  <div id="dimensions-panel" class="calc-panel">
+    <h2>Dimensions Calculator</h2>
+    <p class="calc-subtitle">Add multiple rooms or areas by entering their dimensions</p>
+    <div id="area-rows" class="area-rows"></div>
+    <button class="calc-add-area" id="add-area" type="button">+ Add Another Area</button>
+    <div class="calc-total"><span>Total Area</span><strong id="dimensions-total">0.00 sq ft</strong></div>
+  </div>
+
+  <div id="area-panel" class="calc-panel hidden">
+    <h2>Total Area Calculator</h2>
+    <p class="calc-subtitle">Enter the total area you want to cover</p>
+    <div class="total-area-row">
+      <label>Total Area <em>*</em><div class="input-with-unit"><input id="total-area" type="number" min="0" step="0.01" value="0" placeholder="Enter total area"><select id="area-unit"><option value="sqft">Sq.Ft.</option><option value="sqm">Sq.M.</option></select></div></label>
+    </div>
+  </div>
+
+  <div class="calc-options">
+    <label>Tile Size <em>*</em>
+      <select id="tile-size"><option value="">Select Tile Size</option></select>
+    </label>
+    <div class="calc-option-line">
+      <label class="check-line"><input id="use-waste" type="checkbox" checked><span>Add waste and reserve material</span><button type="button" class="why" data-tip="Wastage allows for cutting, breakage and future replacement. 10% is a common starting estimate; patterned layouts may need more.">Why?</button></label>
+      <select id="wastage" class="option-select"><option value="5">5%</option><option value="7">7%</option><option value="10" selected>10%</option><option value="15">15%</option></select>
+    </div>
+    <div class="calc-option-line">
+      <label class="check-line"><input id="use-grout" type="checkbox"><span>Add Grout Width</span><button type="button" class="why" data-tip="Grout width is included in the tile-to-tile module calculation. Keep it at 0 mm if you want a simple tile-area estimate.">Why?</button></label>
+      <div class="input-suffix"><input id="grout" type="number" min="0" step="0.5" value="0" placeholder="0"><span>MM</span></div>
+    </div>
+  </div>
+
+  <div class="calc-action"><button class="btn primary calc-main-btn" id="calculateTiles" type="button">Calculate Tiles Required</button></div>
+
+  <div id="calc-results" class="calc-results-new" aria-live="polite" hidden></div>
+  <div class="calc-help">This calculator gives an estimate. Actual quantity may vary with cutting, pattern, joints and site conditions. For project quantities, send the area and selected tile size to N V CERAMIC.</div>
+  <a class="btn light calc-wa" id="calcWhatsApp" target="_blank" rel="noopener">Share Calculation on WhatsApp</a>
+</div>
+</section>
+</main>
+<div id="site-footer"></div>
+<script src="config.js"></script><script src="data-local.js"></script><script src="app.js"></script>
+<script>
+(function(){
+  const $=id=>document.getElementById(id);
+  let rowNo=0;
+  const areaRows=$('area-rows');
+
+  function addRow(){
+    rowNo++;
+    const row=document.createElement('div');
+    row.className='area-row'; row.dataset.row=rowNo;
+    row.innerHTML=`<div><label>Length <small>(feet)</small><input class="area-length" type="number" min="0" step="0.01" placeholder="Enter length"></label></div>
+      <div><label>Width <small>(feet)</small><input class="area-width" type="number" min="0" step="0.01" placeholder="Enter width"></label></div>
+      <div><label>Area <small>(sq ft)</small><input class="area-value" type="text" readonly placeholder="0.00"></label></div>
+      ${rowNo>1?'<button class="remove-area" type="button" aria-label="Remove area">×</button>':''}`;
+    areaRows.appendChild(row);
+    row.querySelectorAll('input').forEach(i=>i.addEventListener('input',updateAreaRows));
+    if(rowNo>1) row.querySelector('.remove-area').addEventListener('click',()=>{row.remove();updateAreaRows();});
+  }
+  function updateAreaRows(){
+    let total=0;
+    areaRows.querySelectorAll('.area-row').forEach(r=>{
+      const l=parseFloat(r.querySelector('.area-length').value)||0, w=parseFloat(r.querySelector('.area-width').value)||0, a=l*w;
+      r.querySelector('.area-value').value=a? a.toFixed(2):''; total+=a;
+    });
+    $('dimensions-total').textContent=total.toFixed(2)+' sq ft';
+  }
+  addRow();
+  $('add-area').addEventListener('click',addRow);
+
+  function populateSizes(){
+    const sel=$('tile-size'); if(!sel)return;
+    const sizes=(NVC.data&&NVC.data.sizes)||[];
+    const seen={};
+    sel.innerHTML='<option value="">Select Tile Size</option>'+sizes.filter(s=>s&&s.name).filter(s=>{const k=String(s.name).trim().toLowerCase();if(seen[k])return false;seen[k]=1;return true;}).map(s=>`<option value="${NVC.esc(s.id||s.name)}">${NVC.esc(s.name)}</option>`).join('');
+  }
+  document.addEventListener('nvc-ready',populateSizes);
+  if(window.NVC&&NVC.data)populateSizes();
+
+  document.querySelectorAll('input[name="calcMode"]').forEach(r=>r.addEventListener('change',()=>{
+    const dim=r.checked&&r.value==='dimensions'; $('dimensions-panel').classList.toggle('hidden',!dim); $('area-panel').classList.toggle('hidden',dim); $('calc-results').hidden=true;
+  }));
+
+  function selectedSize(){
+    const id=$('tile-size').value, sizes=(NVC.data&&NVC.data.sizes)||[];
+    return sizes.find(s=>String(s.id||s.name)===id)||sizes.find(s=>String(s.name)===id)||null;
+  }
+  function parseSize(size){
+    if(!size)return null;
+    const text=String(size.name||size).trim();
+    const m=text.match(/([0-9]+(?:\.[0-9]+)?)\s*[x×*]\s*([0-9]+(?:\.[0-9]+)?)/i);
+    if(!m)return null;
+    let unit=(text.match(/(mm|cm|inch|inches|in)\b/i)||[])[1]||'mm'; unit=unit.toLowerCase();
+    if(unit==='inches'||unit==='in')unit='inch';
+    const factor={mm:0.001,cm:0.01,inch:0.0254}[unit]||0.001;
+    return {name:text,lMeters:parseFloat(m[1])*factor,wMeters:parseFloat(m[2])*factor,unit};
+  }
+  function getAreaM2(){
+    const mode=document.querySelector('input[name="calcMode"]:checked').value;
+    if(mode==='area'){
+      const v=parseFloat($('total-area').value)||0; return $('area-unit').value==='sqm'?v:v*0.09290304;
+    }
+    let totalSqft=0; areaRows.querySelectorAll('.area-row').forEach(r=>{totalSqft+=(parseFloat(r.querySelector('.area-length').value)||0)*(parseFloat(r.querySelector('.area-width').value)||0);});
+    return totalSqft*0.09290304;
+  }
+  function calc(){
+    const areaM2=getAreaM2();
+    if(!(areaM2>0)){alert('Please enter a valid room dimension or total area.');return;}
+    const size=selectedSize(), parsed=parseSize(size);
+    if(!parsed){alert('Please select a valid tile size from the dropdown.');return;}
+    const waste=$('use-waste').checked?parseFloat($('wastage').value)||0:0;
+    const grout=$('use-grout').checked?Math.max(0,parseFloat($('grout').value)||0):0;
+    const groutM=grout/1000;
+    const tileArea=parsed.lMeters*parsed.wMeters;
+    const moduleArea=(parsed.lMeters+groutM)*(parsed.wMeters+groutM);
+    const areaWaste=areaM2*(1+waste/100);
+    const tiles=Math.ceil(areaWaste/moduleArea);
+    const sqft=areaM2*10.7639104167, wasteSqft=areaWaste*10.7639104167;
+    const sizeBox=size&&size.pcsBox?Math.ceil(tiles/parseFloat(size.pcsBox)):null;
+    $('calc-results').hidden=false;
+    $('calc-results').innerHTML=`<div><small>Total Area</small><strong>${sqft.toFixed(2)} sq ft<br><span>${areaM2.toFixed(2)} m²</span></strong></div><div><small>Area with ${waste}% Wastage</small><strong>${wasteSqft.toFixed(2)} sq ft<br><span>${areaWaste.toFixed(2)} m²</span></strong></div><div><small>Tiles Required</small><strong>${tiles.toLocaleString()} tiles${sizeBox?'<br><span>Approx. '+sizeBox+' boxes</span>':''}</strong></div>`;
+    const mode=document.querySelector('input[name="calcMode"]:checked').value;
+    const msg='Hello N V CERAMIC, I used your Tile Calculator. Calculation method: '+(mode==='area'?'Total Area':'Room Dimensions')+' | Area: '+sqft.toFixed(2)+' sq.ft. | Tile Size: '+parsed.name+' | Wastage: '+waste+'% | Grout: '+grout+' mm | Estimated Tiles: '+tiles+(sizeBox?' | Approx. Boxes: '+sizeBox:'')+'. Please help me with product selection and quantity.';
+    const n=String((NVC.data.settings||{}).whatsapp||'917567796973').replace(/\D/g,''); $('calcWhatsApp').href='https://wa.me/'+n+'?text='+encodeURIComponent(msg);
+  }
+  $('calculateTiles').addEventListener('click',calc);
+  document.querySelectorAll('.why').forEach(b=>b.addEventListener('click',()=>alert(b.dataset.tip)));
+})();
+</script>
+</body></html>
